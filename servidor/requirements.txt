@@ -1,0 +1,27 @@
+# Web framework
+fastapi==0.95.2
+uvicorn[standard]==0.23.1
+
+# Imagen
+pillow>=9.5.0
+
+# Deep Learning (CPU-only PyTorch)
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Modelos de detección
+ultralytics>=8.0.156
+
+# CLIP
+ftfy>=6.1.1
+regex>=2022.9.13
+git+https://github.com/openai/CLIP.git@main#egg=clip
+
+# (Opcional) typing modernizado
+typing-extensions>=4.5.0
+
+# Para la gestión de procesos y recursos del sistema
+psutil>=5.9.0
+
+#Utilizado para medir el uso de memoria durante la inferencia de una imagen en un modelo.
+memory_profiler>=0.61.0
